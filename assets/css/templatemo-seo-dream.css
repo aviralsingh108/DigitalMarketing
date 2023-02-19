@@ -855,9 +855,12 @@ Banner Style
   background-image: url(../images/homeBackground.jpg);
 }
 
-.main-banner:after {
+.main-banner .container{
+  margin-top: -5%;
+}
+/* .main-banner:after {
   content: '';
-  /* background-image: url(../images/banner-dec-left.png); */
+  background-image: url(../images/banner-dec-left.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -869,7 +872,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  /* background-image: url(../images/banner-dec-right.png); */
+  background-image: url(../images/banner-dec-right.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -877,31 +880,31 @@ Banner Style
   width: 1159px;
   height: 797px;
   z-index: -1;
-}
+} */
 
-.main-banner .left-content {
+/* .main-banner .left-content {
   margin-right: 45px;
-}
+} */
 
-.main-banner .left-content h6 {
+/* .main-banner .left-content h6 {
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 400;
   color: #2a2a2a;
   margin-bottom: 8px;
-}
+} */
 
-.main-banner .left-content h4 {
+/* .main-banner .left-content h4 {
   z-index: 2;
   position: relative;
   font-weight: 700;
   font-size: 20px;
   color: #2a2a2a;
-}
+} */
 
 .main-banner .left-content h2 {
-  border-top: 1px solid #eee;
-  margin-top: 30px;
+  /* border-top: 1px solid #eee; */
+  /* margin-top: 30px; */
   padding-top: 20px;
   margin-bottom: 45px;
   font-size: 60px;
@@ -916,7 +919,7 @@ Banner Style
   -webkit-text-fill-color: transparent;
 }
 
-.main-banner .right-image {
+/* .main-banner .right-image {
   text-align: right;
   position: relative;
   z-index: 2;
@@ -924,7 +927,7 @@ Banner Style
 
 .main-banner .right-image img {
   max-width: 593px;
-}
+} */
 
 
 
