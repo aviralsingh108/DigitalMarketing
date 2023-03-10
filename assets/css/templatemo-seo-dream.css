@@ -188,6 +188,14 @@ body {
 
 }
 
+.section-heading h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #33ccc5;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
 .section-heading h2 {
   font-size: 30px;
   text-transform: capitalize;
@@ -1527,6 +1535,20 @@ contact
 
 .contact-us .contact-info ul li .icon img {
   max-width: 32px;
+}
+.contact-us .icon a{
+  color: #33ccc5;
+} 
+.contact-us .icon img {
+  max-width: 32px;
+}
+.contact-us  .contact-info h4 {
+   font-size: 30px;
+  transition: all .5s;
+  font-weight: 700;
+  color: #33ccc5;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 form#contact {
